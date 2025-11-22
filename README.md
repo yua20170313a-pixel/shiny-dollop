@@ -192,6 +192,10 @@ CoolParagraph:Set("Paragraph New!", "New Paragraph Content!")
 ```lua
 local playerPara = Main_Tab:AddPlayerParagraph(7059643752, "説明文")
 ```
+## Inage a Paragraph 
+```lua
+local myParagraph = Main_Tab:AddImageParagraph("rbxassetid://123456789", "最初のテキストです。")
+```
 ## Creating an Adaptive Input
 ```lua
 Tab:AddTextbox({
